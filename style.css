@@ -1,0 +1,263 @@
+body {
+    font-family: 'Arial', sans-serif; 
+    margin: 10px;
+    padding: 0px;
+    background-color: #EFEEFF;
+    color: #022B3B; 
+}
+
+header {
+    background: linear-gradient(to right, #e0ecff, #f4f9ff);
+    color: #0D2D72;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header .logo {
+            display: flex;
+            align-items: center;
+        }
+        .header .logo img {
+            height: 50px;
+            margin-right: 10px;
+        }
+        .header .logo span {
+            font-weight: bold;
+            font-size: 18px;
+            color: #0d2d72;
+        }
+
+
+header h1 {
+    margin: 15px;
+    font-size: 20px;
+}
+
+header nav {
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+header nav a {
+    color:#0d2d72;
+    text-decoration: none;
+    font-size: 17px;
+    margin: 0 10px;
+}
+
+header nav a:hover {
+    color: #2980b9;
+}
+
+main {
+    padding: 20px;
+   }
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+
+.intro {
+    max-width: 800px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    }
+
+.intro h2 {
+    color: #0d2d72;
+    }
+
+.intro ul {
+    list-style-type: none;
+    padding: 0;
+    }
+
+.intro ul li {
+    margin: 10px 0;
+    text-align: left;
+    }
+
+.intro ul li strong {
+    color: #0d2d72;
+    }
+
+.intro p {
+    text-align: center;
+    color: #333;
+    }
+
+.button {
+   background-color: #00BFFF; /* Color celeste */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px; /* Borde redondeado */
+    transition: background 0.3s;
+    justify-content: center;
+    }
+
+
+.button:hover {
+    background: #2980b9;
+    }
+
+.button-container {
+            justify-content: center;
+            width: 100%;
+            display: center;
+            margin: 0 auto;
+        }
+
+.button-link {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #09BCDC;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    margin-left: 5px; /* Separación entre imagen y botón */
+  }
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0;
+    text-align: center;
+    }
+
+.features .feature {
+    padding: 20px;
+    }
+
+.features .feature img {
+    width: 100px;
+    height: 100px;
+    }
+
+.features .feature h3 {
+    color: #333;
+    margin-top: 10px;
+    }   
+
+.content {
+    flex: 1;
+    padding: 20px;
+    margin-right: 220px; /* Espacio para el índice */
+}
+
+.sidebar {
+    width: 200px;
+    position: fixed;
+    right: 0;
+    top: 60px; /* Espacio para el encabezado */
+    height: calc(100% - 60px); /* Ajusta la altura para que no se solape con el encabezado */
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: -2px 0 5px rgba(0,0,0,0.1);
+    overflow-y: auto; /* Se desplaza si hay mucho texto */
+    border-radius: 8px;
+}
+
+.sidebar h2 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 10px 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    margin-right: 7px;
+  }
+
+ .container img {
+    max-width: 50px;
+    height: auto;
+    margin-right: 5px; /* Margen derecho para separar la imagen del botón */
+  }
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contenedor-jus {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+ .contenedor-izq {
+            display: flex;
+            align-items: center;
+             flex-direction: column;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+.texto {
+    max-width: 800px;
+    margin-bottom: 20px;
+}
+
+.imagen {
+    margin-bottom: 20px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+}
+
+.imagen img {
+    max-width: 100%;
+}
+
+.montserrat-normal  {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.montserrat-regular {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.montserrat-bold {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: bold;
+  font-style: bold;
+}
