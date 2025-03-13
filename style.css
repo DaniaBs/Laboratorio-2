@@ -16,10 +16,13 @@ font-family: 'Poppins', sans-serif;
 body{
     font-family: 'Poppins', sans-serif;
     padding-top: 60px;
+    margin: 10px
+    background-color: #EFEEFF;
+    color: #010c11;
 }
 
 img{
-    max-width: 100;
+    max-width: 500;
 }
 .container{
     max-width: 1200px;
@@ -31,7 +34,8 @@ img{
     align-items: center;
     min-height: 80vh;
     background-color: #F5F5F5;
-    padding: 70px 0;
+    padding: 10px 20px;
+    justify-content: space-between;
 }
 
 .menu .container{
