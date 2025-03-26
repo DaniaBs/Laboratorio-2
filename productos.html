@@ -4,25 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sevicios</title>
+    <title>Productos</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <header class="header">
-
         <div class="menu container">
-            <a href="#" class="logo">Logo</a>
+            <a href="index.html">
+                <img src="images/logo1.png" alt="" width="160px" height="auto">
+            </a>
             <input type="checkbox" id="menu"/>
             <label for="menu">
                 <img src="images/menu.png" class="menu-icono" alt="menu">
             </label>
+
             <nav class="navbar">
                 <ul>
-                    <li><a href="#">Inicio</a></li>
-                    <li><a href="#">Servicios</a></li>
-                    <li><a href="#">Productos</a></li>
-                    <li><a href="#">Contacto</a></li>
+                    <li><a href="index.html">Inicio</a></li>
+    
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contactanos.html">Contacto</a></li>
                 </ul>
             </nav>
             <div>
@@ -49,20 +51,403 @@
         </div>
 
         <div class="header-content container">
+            <div class="header-img">
+                <img src="images/iphone.png" alt="" width="600px" height="auto">
+            </div>
             <div class="header-txt">
                 <h1>Nuestros Productos</h1>
-                <p>Conoce más sobre nuestros productos</p>
-                <a href="#" class="btn-1">Información</a>
-            </div>
-
-        </div>
+                <div class="empresa-info">
+                    <p>¡CONOCE NUESTRAS OFERTAS ESPECIALES!</p>
+                </div>
+                </div>
     </header>
 
+    <section class="product-section">
+        <h2>Laptops</h2>
     
-    </footer>
+        <section class="ofert container">
 
+            <div class="ofert-1">  
+                <div class="ofert-img">
+                    <img src="images/f7.png" alt="Monitor ASUS" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Microsoft Surface Laptop Go 3 Edición 2023</h3>
+                    <p class="regular-price">Precio Regular: <span>Q7,570.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q7,000.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal1">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal -->
+            <div id="modal1" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar">&times;</span>
+                    <h3>Microsoft Surface Laptop Go 3</h3>
+                    <p>La Microsoft Surface Laptop Go 3 es una portátil ligera y elegante diseñada para la productividad diaria. Cuenta con una pantalla táctil PixelSense de 12.4 pulgadas, procesador Intel Core de 11ª generación, 16 GB de RAM y opciones de almacenamiento SSD de hasta 512 GB.</p>
+                    <p>Su diseño compacto y batería de larga duración la hacen ideal para estudiantes y profesionales en movimiento.</p>
+                </div>
+            </div>
+            
+                <div class="ofert-1">
+                    <div class="ofert-img">
+                        <img src="images/f2.png" alt="" width="500px" height="auto">
+                    </div>
+                    <div class="ofert-txt">
+                        <h3>ASUS ROG Strix Scar</h3>
+                        <p class="regular-price">Precio Regular: <span>Q16,719.00 </span></p>
+                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q16,000.00 </span></p>
+                        <div class="button-container">
+                            <button class="info-btn" data-modal="modal2">Información</button>
+                            <button class="cart-btn">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Modal para ASUS ROG -->
+            <div id="modal2" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar">&times;</span>
+                    <h3>ASUS ROG Strix Scar</h3>
+                    <p>La serie ASUS ROG Strix Scar está diseñada para gamers que buscan alto rendimiento. Equipadas con procesadores Intel Core de 13ª generación y tarjetas gráficas NVIDIA GeForce RTX de la serie 40, estas laptops ofrecen pantallas de alta tasa de refresco (hasta 360 Hz) y sistemas de enfriamiento avanzados para sesiones de juego intensas.</p>
+                    <p>Su teclado mecánico óptico y la iluminación RGB personalizable mejoran la experiencia de juego.</p>
+                </div>
+            </div>
+
+                <div class="ofert-1">
+                    <div class="ofert-img">
+                        <img src="images/f8.png" alt="" width="500px" height="auto">
+                    </div>
+                    <div class="ofert-txt">
+                        <h3>Dell Alienware m15 R5 Ryzen Edition Portátil </h3>
+                        <p class="regular-price">Precio Regular: <span>Q21,647.00</span></p>
+                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q20,900.00</span></p>
+                        <div class="button-container">
+                            <button class="info-btn" data-modal="modal3">Información</button>
+                            <button class="cart-btn">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="ofert-1">
+                    <div class="ofert-img">
+                        <img src="images/f9.png" alt="" width="500px" height="auto">
+                    </div>
+                    <div class="ofert-txt">
+                        <h3>Laptop Gaming HP Victus</h3>
+                        <p class="regular-price">Precio Regular: <span>Q5,599.00</span></p>
+                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q5,350.00</span></p>
+                        <div class="button-container">
+                            <button class="info-btn" data-modal="modal4">Información</button>
+                            <button class="cart-btn">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+        
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f10.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>ASUS ROG Zephyrus Duo 15 GX550</h3>
+                    <p class="regular-price">Precio Regular: <span>Q36,639.00 </span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q34,900.00 </span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal5">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ofert-1">  
+                <div class="ofert-img">
+                    <img src="images/f11.png" alt="Monitor ASUS" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Laptop ThinkPad E14 Gen 5</h3>
+                    <p class="regular-price">Precio Regular: <span>Q10,823.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q10,400.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal1">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f12.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Laptop MacBook Air 2022</h3>
+                    <p class="regular-price">Precio Regular: <span>Q15,068.00 </span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q14,500.00 </span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal1">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f13.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Laptop HP ZBook Power G11</h3>
+                    <p class="regular-price">Precio Regular: <span>Q25,560.00 </span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q24,900.00 </span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal1">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+    <section class="product-section">
+        <h2>Periféricos</h2>
     
-    <script src="scrip.js"></script>
+        <section class="ofert container">
+
+            <div class="ofert-1">  
+                <div class="ofert-img">
+                    <img src="images/f15.png" alt="Monitor ASUS" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Teclado y Mouse Inalambrico Logitech MK470</h3>
+                    <p class="regular-price">Precio Regular: <span>Q339.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q300.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal1">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f3.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Teclado Gamer Razer Cynosa V2 Chroma</h3>
+                    <p class="regular-price">Precio Regular: <span>Q590.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q520.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal1">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f14.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Mouse Inalámbrico Gaming G502 X PLUS</h3>
+                    <p class="regular-price">Precio Regular: <span>Q1,299.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q1,000.00</span></p>
+                   <div class="button-container">
+                    <button class="info-btn" data-modal="modal1">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f4.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Mouse Gamer Cobra Nasa RZ01</h3>
+                    <p class="regular-price">Precio Regular: <span>Q319.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q280.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal1">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="product-section">
+            <h2>Tablets y Celulares</h2>
+        
+            <section class="ofert container">
+    
+                <div class="ofert-1">  
+                    <div class="ofert-img">
+                        <img src="images/f16.png" alt="Monitor ASUS" width="500px" height="auto">
+                    </div>
+                    <div class="ofert-txt">
+                        <h3>Samsung Galaxy Tab S10+ (Silver)</h3>
+                        <p class="regular-price">Precio Regular: <span>Q9,000.00</span></p>
+                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q8,500.00</span></p>
+                        <div class="button-container">
+                            <button class="info-btn" data-modal="modal1">Información</button>
+                            <button class="cart-btn">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="ofert-1">
+                    <div class="ofert-img">
+                        <img src="images/f17.png" alt="" width="500px" height="auto">
+                    </div>
+                    <div class="ofert-txt">
+                        <h3>Apple, iPad Pro M4 (Negro)</h3>
+                        <p class="regular-price">Precio Regular: <span>Q9,995.00</span></p>
+                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q9,350.00</span></p>
+                        <div class="button-container">
+                            <button class="info-btn" data-modal="modal1">Información</button>
+                            <button class="cart-btn">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="ofert-1">
+                    <div class="ofert-img">
+                        <img src="images/f18.png" alt="" width="500px" height="auto">
+                    </div>
+                    <div class="ofert-txt">
+                        <h3>Google Pixel 9 Pro XL (Hazel)</h3>
+                        <p class="regular-price">Precio Regular: <span>Q11,720.00</span></p>
+                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q11,100.00</span></p>
+                        <div class="button-container">
+                            <button class="info-btn" data-modal="modal1">Información</button>
+                            <button class="cart-btn">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="ofert-1">
+                    <div class="ofert-img">
+                        <img src="images/f20.png" alt="" width="500px" height="auto">
+                    </div>
+                    <div class="ofert-txt">
+                        <h3>Samsung Galaxy S24 Ultra (Negro)</h3>
+                        <p class="regular-price">Precio Regular: <span>Q13,995.00</span></p>
+                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q13,250.00</span></p>
+                        <div class="button-container">
+                            <button class="info-btn" data-modal="modal1">Información</button>
+                            <button class="cart-btn">Agregar al carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        
+
+    <section class="product-section">
+        <h2>Mantenimiento y Limpieza</h2>
+    
+        <section class="ofert container">
+
+            <div class="ofert-1">  
+                <div class="ofert-img">
+                    <img src="images/f21.png" alt="Monitor ASUS" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Arctic, Pasta Témica Cooling MX-4</h3>
+                    <p class="regular-price">Precio Regular: <span>Q80.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q74.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal1">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f22.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>BROCS, Kit De Herramientas Para Notebook</h3>
+                    <p class="regular-price">Precio Regular: <span>Q221.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q205.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal1">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f23.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>BROCS, Aire comprimido</h3>
+                    <p class="regular-price">Precio Regular: <span>Q42.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q39.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal1">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f24.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>BROCS, Espuma limpiadora con aroma</h3>
+                    <p class="regular-price">Precio Regular: <span>Q42.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q39.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal1">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-logo">
+                <h2>TechZone S.A.</h2>
+                <p>Ofrecemos los mejores productos electrónicos con una calidad excepcional.</p>
+            </div>
+    
+            <div class="footer-links">
+                <div class="link">
+                    <h3>Productos</h3>
+                    <ul>
+                        <li><a href="productos.html">Productos</a></li>
+                    </ul>
+                </div>
+                
+                <div class="link">
+                    <h3>Empresa</h3>
+                    <ul>
+                        <li><a href="contactanos.html">Contáctanos</a></li>
+                    </ul>
+                </div>
+            </div>
+    
+            <div class="footer-social">
+                <h3>Síguenos</h3>
+                <div class="social-icons">
+                    <a href="#"><img src="icons/facebook.png" alt="Facebook"></a>
+                    <a href="#"><img src="icons/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="icons/youtube.png" alt="YouTube"></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 TechZone S.A. - Todos los derechos reservados.</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
     
 </body>
 </html>
