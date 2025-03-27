@@ -268,8 +268,15 @@ th, td{
 }
 
 .button-container button {
-    flex: 1; /* Asegura que los botones tengan el mismo tamaño */
+    flex-grow: 1; /* Ambos botones ocuparán el mismo espacio */
+    max-width: 140px; /* Controla el tamaño máximo */
     text-align: center;
+    padding: 10px 0;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
 }
 
 button {
@@ -281,6 +288,8 @@ button {
     border-radius: 5px;
     width: 100%; /* Para que ocupen el mismo espacio */
 }
+
+
 
 .info-btn {
     background-color: #823a2d;

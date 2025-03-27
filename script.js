@@ -1,9 +1,10 @@
 document.addEventListener("DOMContentLoaded", function () {
-    // Obtener botones de abrir modal
-    let botones = document.querySelectorAll(".info-btn");
+    console.log("✅ Script cargado correctamente");
 
-    // Agregar evento a cada botón
-    botones.forEach(boton => {
+    // ---------- MODALES ----------
+    let botonesModal = document.querySelectorAll(".info-btn");
+
+    botonesModal.forEach(boton => {
         boton.addEventListener("click", function () {
             let modalId = this.getAttribute("data-modal");
             let modal = document.getElementById(modalId);
@@ -11,7 +12,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 
-    // Cerrar modal cuando se haga clic en "X" o fuera del contenido
     let modales = document.querySelectorAll(".modal");
 
     modales.forEach(modal => {
@@ -21,4 +21,5 @@ document.addEventListener("DOMContentLoaded", function () {
             }
         });
     });
+
 });
