@@ -1,4 +1,3 @@
-# Laboratorio-2
 # Laboratorio 2 de Practica Supervisada
 
 # Descripción
@@ -8,7 +7,11 @@ TechZone S.A. busca modernizar su presencia en línea con una página web sencil
 # Estructura del Proyecto
 
 El sitio web consta de las siguientes secciones:
--Inicio: Presentación breve de la empresa.
--Productos: Lista de productos de tecnología con sus precios y características.
--Carrito de Compras: Sección donde se muestran los productos seleccionados (sin funcionalidad de compra).
--Formulario de Contacto: Para que los clientes puedan enviar consultas.
+
+Inicio: Presentación breve de la empresa.
+
+Productos: Lista de productos de tecnología con sus precios y características.
+
+Carrito de Compras: Sección donde se muestran los productos seleccionados (sin funcionalidad de compra).
+
+Formulario de Contacto: Para que los clientes puedan enviar consultas.
