@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Configuración del documento -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TechZone S.A.</title>
+    <!-- Enlace a la hoja de estilos -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <!-- Encabezado de la página -->
     <header class="header">
         <div class="menu container">
+            <!-- Logo de la empresa -->
             <a href="index.html">
-                <img src="images/logo1.png" alt="" width="160px" height="auto">
+                <img src="images/logo1.png" alt="Logo TechZone" width="160px" height="auto">
             </a>
+            <!-- Menú de navegación responsivo -->
             <input type="checkbox" id="menu"/>
             <label for="menu">
-                <img src="images/menu.png" class="menu-icono" alt="menu">
+                <img src="images/menu.png" class="menu-icono" alt="Menú">
             </label>
 
+            <!-- Barra de navegación -->
             <nav class="navbar">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
@@ -26,10 +31,11 @@
                     <li><a href="contactanos.html">Contacto</a></li>
                 </ul>
             </nav>
+            <!-- Carrito de compras -->
             <div>
                 <ul>
                     <li class="submenu">
-                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <img src="images/car.svg" id="img-carrito" alt="Carrito de compras">
                         <div id="carrito">
                             <table id="lista-carrito">
                                 <thead>
@@ -49,118 +55,123 @@
             </div>
         </div>
 
+        <!-- Sección de bienvenida -->
         <div class="header-content container">
             <div class="header-img">
-                <img src="images/iphone.png" alt="" width="600px" height="auto">
+                <img src="images/iphone.png" alt="Imagen promocional" width="600px" height="auto">
             </div>
             <div class="header-txt">
                 <h1>Bienvenido a TechZone S.A.</h1>
                 <div class="empresa-info">
-                    <p>Ofrecemos los mejores productos electrónicos con una calidad excepcional. ¡Explora nuestro catálogo!</p>
+                <p>Ofrecemos los mejores productos electrónicos con una calidad excepcional. ¡Explora nuestro catálogo!</p>
                 </div>
-                    
-        
                 <a href="productos.html" class="btn-1">Más Información →</a>
             </div>
-        </div>
+            </div>
     </header>
     
+    <!-- Sección de productos especiales -->
     <section class="product-section">
         <h2>Productos Especiales</h2>
-
         <section class="ofert container">
-        
+            
+            <!-- Producto 1 -->
             <div class="ofert-1">
                 <div class="ofert-img">
-                    <img src="images/f1.png" alt="" width="500px" height="auto">
+                    <img src="images/f1.png" alt="Monitor Asus" width="500px">
                 </div>
                 <div class="ofert-txt">
-                        <h3>Monitor Asus VZ279HEG1R 75Hz Ultradelgado IPS</h3>
-                        <p class="regular-price">Precio Regular: <span>Q1,835.00</span></p>
-                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q1,650.00</span></p>
-                        <div class="button-container">
-                            <button class="info-btn" data-modal="modal0">Información</button>
-                            <button class="cart-btn">Agregar al carrito</button>
-                        </div>
+                    <h3>Monitor Asus VZ279HEG1R 75Hz Ultradelgado IPS</h3>
+                    <p class="regular-price">Precio Regular: <span>Q1,835.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q1,650.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal0">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
                     </div>
                 </div>
-    
-                <div id="modal0" class="modal">
-                    <div class="modal-contenido">
-                        <span class="cerrar">&times;</span>
-                        <h3> Monitor Asus VZ279HEG1R 75Hz Ultradelgado IPS</h3>
-                        <p>El Asus VZ279HEG1R es un monitor IPS de 27” con resolución Full HD (1920x1080), ideal para gaming y productividad. Su tasa de refresco de 75Hz y tiempo de respuesta de 1ms MPRT ofrecen imágenes fluidas y sin desenfoques.</p>
-                        <p>Su diseño ultradelgado y sin bordes maximiza el espacio de trabajo, mientras que la tecnología Eye Care reduce la fatiga ocular durante largas sesiones.</p>
-                    </div>
-                </div>
+            </div>
             
-                <div class="ofert-1">
-                    <div class="ofert-img">
-                        <img src="images/f25.png" alt="" width="500px" height="auto">
-                    </div>
-                    <div class="ofert-txt">
-                        <h3>Enfriamiento Liquido Corsair H100 RGB 240mm</h3>
-                        <p class="regular-price">Precio Regular: <span>Q1,022.00</span></p>
-                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q899.00</span></p>
-                        <div class="button-container">
-                            <button class="info-btn" data-modal="modal01">Información</button>
-                            <button class="cart-btn">Agregar al carrito</button>
-                        </div>
-                    </div>
+            <!-- Modal Producto 1 -->
+            <div id="modal0" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar">&times;</span>
+                    <h3>Monitor Asus VZ279HEG1R 75Hz Ultradelgado IPS</h3>
+                    <p>El Asus VZ279HEG1R es un monitor IPS de 27” con resolución Full HD (1920x1080), ideal para gaming y productividad. Su tasa de refresco de 75Hz y tiempo de respuesta de 1ms MPRT ofrecen imágenes fluidas y sin desenfoques.</p>
+                    <p>Su diseño ultradelgado y sin bordes maximiza el espacio de trabajo, mientras que la tecnología Eye Care reduce la fatiga ocular durante largas sesiones.</p>
                 </div>
-    
-                <div id="modal01" class="modal">
-                    <div class="modal-contenido">
-                        <span class="cerrar">&times;</span>
-                        <h3>Enfriamiento Líquido Corsair H100 RGB 240mm</h3>
-                        <p>El Corsair H100 RGB es un sistema de refrigeración líquida AIO de 240mm con dos ventiladores de alto rendimiento y una bomba optimizada para una disipación eficiente y silenciosa. Su iluminación RGB personalizable se sincroniza con el software iCUE.</p>
-                        <p>Compatible con procesadores Intel y AMD (AM5 y LGA1700), es ideal para mantener temperaturas bajas en sistemas exigentes.</p>
-                    </div>
-                </div>
+            </div>
             
-                <div class="ofert-1">
-                    <div class="ofert-img">
-                        <img src="images/f5.png" alt="" width="500px" height="auto">
-                    </div>
-                    <div class="ofert-txt">
-                        <h3>ROG Strix GeForce RTX 4090 OC Edition</h3>
-                        <p class="regular-price">Precio Regular: <span>Q20,635.00</span></p>
-                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q19,800.00</span></p>
-                        <div class="button-container">
-                            <button class="info-btn" data-modal="modal02">Información</button>
-                            <button class="cart-btn">Agregar al carrito</button>
-                        </div>
+            <!-- Producto 2 -->
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f25.png" alt="Enfriamiento Líquido Corsair" width="500px">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Enfriamiento Líquido Corsair H100 RGB 240mm</h3>
+                    <p class="regular-price">Precio Regular: <span>Q1,022.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q899.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal01">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
                     </div>
                 </div>
-    
-                <div id="modal02" class="modal">
-                    <div class="modal-contenido">
-                        <span class="cerrar">&times;</span>
-                        <h3>ROG Strix GeForce RTX 4090 OC Edition</h3>
-                        <p>La ROG Strix GeForce RTX 4090 OC Edition ofrece 24GB de memoria GDDR6X y un rendimiento extremo para gaming en 4K y 8K. Su frecuencia en modo OC alcanza 2640 MHz, mejorando la fluidez con tecnología DLSS 3.</p>
+            </div>
+            
+            <!-- Modal Producto 2 -->
+            <div id="modal01" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar">&times;</span>
+                    <h3>Enfriamiento Líquido Corsair H100 RGB 240mm</h3>
+                    <p>El Corsair H100 RGB es un sistema de refrigeración líquida AIO de 240mm con dos ventiladores de alto rendimiento y una bomba optimizada para una disipación eficiente y silenciosa. Su iluminación RGB personalizable se sincroniza con el software iCUE.</p>
+                    <p>Compatible con procesadores Intel y AMD (AM5 y LGA1700), es ideal para mantener temperaturas bajas en sistemas exigentes.</p>
+                </div>
+            </div>
+            
+            <!-- Producto 3 -->
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f5.png" alt="RTX 4090" width="500px">
+                </div>
+                <div class="ofert-txt">
+                    <h3>ROG Strix GeForce RTX 4090 OC Edition</h3>
+                    <p class="regular-price">Precio Regular: <span>Q20,635.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q19,800.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal02">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Modal Producto 3 -->
+            <div id="modal02" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar">&times;</span>
+                    <h3>ROG Strix GeForce RTX 4090 OC Edition</h3>
+                    <p>La ROG Strix GeForce RTX 4090 OC Edition ofrece 24GB de memoria GDDR6X y un rendimiento extremo para gaming en 4K y 8K. Su frecuencia en modo OC alcanza 2640 MHz, mejorando la fluidez con tecnología DLSS 3.</p>
                         <p>Su sistema de refrigeración con triple ventilador Axial-Tech y el diseño RGB Aura Sync garantizan temperaturas óptimas y un look impresionante.</p>
-                    </div>
                 </div>
-
+            </div>
+            
+            <!-- Sección de más productos -->
             <div class="ofert-2">
                 <div class="ofert-content">
                     <h3>Más Productos</h3>
-                    <a href="productos.html" class="btn-mas-productos">
-                        Ver más <span>→</span>
-                    </a>
+                    <a href="productos.html" class="btn-mas-productos">Ver más <span>→</span></a>
                 </div>
             </div>
         </section>
-    </main>
+    </section>
     
-
+    <!-- Pie de página -->
     <footer class="footer">
         <div class="footer-content container">
+            <!-- Información de la empresa -->
             <div class="footer-logo">
                 <h2>TechZone S.A.</h2>
                 <p>Ofrecemos los mejores productos electrónicos con una calidad excepcional.</p>
             </div>
-    
+            <!-- Enlaces rápidos -->
             <div class="footer-links">
                 <div class="link">
                     <h3>Productos</h3>
@@ -168,7 +179,6 @@
                         <li><a href="productos.html">Productos</a></li>
                     </ul>
                 </div>
-                
                 <div class="link">
                     <h3>Empresa</h3>
                     <ul>
@@ -176,7 +186,7 @@
                     </ul>
                 </div>
             </div>
-    
+            <!-- Redes sociales -->
             <div class="footer-social">
                 <h3>Síguenos</h3>
                 <div class="social-icons">
@@ -191,6 +201,7 @@
         </div>
     </footer>
 
+    <!-- Enlace al archivo JavaScript -->
     <script src="script.js"></script>
     
 </body>

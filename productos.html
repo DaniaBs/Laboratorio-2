@@ -1,36 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Configuración del documento -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Productos</title>
+    <title>TechZone S.A.</title>
+    <!-- Enlace a la hoja de estilos -->
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+    <!-- Encabezado de la página -->
     <header class="header">
         <div class="menu container">
+            <!-- Logo de la empresa -->
             <a href="index.html">
-                <img src="images/logo1.png" alt="" width="160px" height="auto">
+                <img src="images/logo1.png" alt="Logo TechZone" width="160px" height="auto">
             </a>
+            <!-- Menú de navegación responsivo -->
             <input type="checkbox" id="menu"/>
             <label for="menu">
-                <img src="images/menu.png" class="menu-icono" alt="menu">
+                <img src="images/menu.png" class="menu-icono" alt="Menú">
             </label>
 
+            <!-- Barra de navegación -->
             <nav class="navbar">
                 <ul>
                     <li><a href="index.html">Inicio</a></li>
-    
                     <li><a href="productos.html">Productos</a></li>
                     <li><a href="contactanos.html">Contacto</a></li>
                 </ul>
             </nav>
+            <!-- Carrito de compras -->
             <div>
                 <ul>
                     <li class="submenu">
-                        <img src="images/car.svg" id="img-carrito" alt="carrito">
+                        <img src="images/car.svg" id="img-carrito" alt="Carrito de compras">
                         <div id="carrito">
                             <table id="lista-carrito">
                                 <thead>
@@ -50,6 +55,7 @@
             </div>
         </div>
 
+        <!-- Sección de bienvenida -->
         <div class="header-content container">
             <div class="header-img">
                 <img src="images/iphone.png" alt="" width="600px" height="auto">
@@ -63,11 +69,13 @@
         </div>
     </header>
 
+    <!-- Sección de productos -->
     <section class="product-section">
         <h2>Laptops</h2>
     
         <section class="ofert container">
 
+            <!-- Producto 1 -->
             <div class="ofert-1">  
                 <div class="ofert-img">
                     <img src="images/f7.png" alt="Monitor ASUS" width="500px" height="auto">
@@ -83,7 +91,7 @@
                 </div>
             </div>
             
-            <!-- Modal -->
+            <!-- Modal Producto 1 -->
             <div id="modal1" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -93,22 +101,23 @@
                 </div>
             </div>
             
-                <div class="ofert-1">
-                    <div class="ofert-img">
-                        <img src="images/f2.png" alt="" width="500px" height="auto">
-                    </div>
-                    <div class="ofert-txt">
-                        <h3>ASUS ROG Strix Scar</h3>
-                        <p class="regular-price">Precio Regular: <span>Q16,719.00 </span></p>
-                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q16,000.00 </span></p>
-                        <div class="button-container">
-                            <button class="info-btn" data-modal="modal2">Información</button>
-                            <button class="cart-btn">Agregar al carrito</button>
-                        </div>
+            <!-- Producto 2 -->   
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f2.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>ASUS ROG Strix Scar</h3>
+                    <p class="regular-price">Precio Regular: <span>Q16,719.00 </span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q16,000.00 </span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal2">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
                     </div>
                 </div>
+            </div>
 
-                <!-- Modal para ASUS ROG -->
+            <!-- Modal Producto 2 --> 
             <div id="modal2" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -118,55 +127,59 @@
                 </div>
             </div>
 
-                <div class="ofert-1">
-                    <div class="ofert-img">
-                        <img src="images/f8.png" alt="" width="500px" height="auto">
-                    </div>
-                    <div class="ofert-txt">
-                        <h3>Dell Alienware m15 R5 Ryzen Edition Portátil</h3>
-                        <p class="regular-price">Precio Regular: <span>Q21,647.00</span></p>
-                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q20,900.00</span></p>
-                        <div class="button-container">
-                            <button class="info-btn" data-modal="modal3">Información</button>
-                            <button class="cart-btn">Agregar al carrito</button>
-                        </div>
+            <!-- Producto 3 -->    
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f8.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Dell Alienware m15 R5 Ryzen Edition Portátil</h3>
+                    <p class="regular-price">Precio Regular: <span>Q21,647.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q20,900.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal3">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
                     </div>
                 </div>
+            </div>
 
-                <div id="modal3" class="modal">
-                    <div class="modal-contenido">
-                        <span class="cerrar">&times;</span>
-                        <h3>Dell Alienware m15 R5 Ryzen Edition Portátil</h3>
-                        <p>La Dell Alienware m15 R5 Ryzen Edition combina la potencia de los procesadores AMD Ryzen con las tarjetas gráficas NVIDIA GeForce RTX. Ofrece una pantalla de 15.6 pulgadas con opciones de alta resolución y tasas de refresco rápidas, almacenamiento SSD rápido y un sistema de enfriamiento eficiente. </p>
-                        <p>Su diseño futurista y construcción robusta la convierten en una opción destacada para gamers.</p>
-                    </div>
+            <!-- Modal Producto 3 -->
+            <div id="modal3" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar">&times;</span>
+                    <h3>Dell Alienware m15 R5 Ryzen Edition Portátil</h3>
+                    <p>La Dell Alienware m15 R5 Ryzen Edition combina la potencia de los procesadores AMD Ryzen con las tarjetas gráficas NVIDIA GeForce RTX. Ofrece una pantalla de 15.6 pulgadas con opciones de alta resolución y tasas de refresco rápidas, almacenamiento SSD rápido y un sistema de enfriamiento eficiente. </p>
+                    <p>Su diseño futurista y construcción robusta la convierten en una opción destacada para gamers.</p>
                 </div>
+            </div>
             
-                <div class="ofert-1">
-                    <div class="ofert-img">
-                        <img src="images/f9.png" alt="" width="500px" height="auto">
-                    </div>
-                    <div class="ofert-txt">
-                        <h3>Laptop Gaming HP Victus</h3>
-                        <p class="regular-price">Precio Regular: <span>Q5,599.00</span></p>
-                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q5,350.00</span></p>
-                        <div class="button-container">
-                            <button class="info-btn" data-modal="modal4">Información</button>
-                            <button class="cart-btn">Agregar al carrito</button>
-                        </div>
+            <!-- Producto 4 -->   
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f9.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Laptop Gaming HP Victus</h3>
+                    <p class="regular-price">Precio Regular: <span>Q5,599.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q5,350.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal4">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
                     </div>
                 </div>
+            </div>
 
-                <div id="modal4" class="modal">
-                    <div class="modal-contenido">
-                        <span class="cerrar">&times;</span>
-                        <h3>Laptop Gaming HP Victus</h3>
-                        <p>La línea HP Victus ofrece laptops gaming asequibles sin comprometer el rendimiento. Equipadas con procesadores Intel Core o AMD Ryzen y tarjetas gráficas NVIDIA GeForce GTX o RTX, estas laptops cuentan con pantallas de 16.1 pulgadas, sistemas de enfriamiento mejorados y teclados diseñados para gaming.</p>
-                        <p>Son ideales para jugadores que buscan una buena relación calidad-precio.</p>
-                        </div>
+            <!-- Modal Producto 4 --> 
+            <div id="modal4" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar">&times;</span>
+                    <h3>Laptop Gaming HP Victus</h3>
+                    <p>La línea HP Victus ofrece laptops gaming asequibles sin comprometer el rendimiento. Equipadas con procesadores Intel Core o AMD Ryzen y tarjetas gráficas NVIDIA GeForce GTX o RTX, estas laptops cuentan con pantallas de 16.1 pulgadas, sistemas de enfriamiento mejorados y teclados diseñados para gaming.</p>
+                    <p>Son ideales para jugadores que buscan una buena relación calidad-precio.</p>
                     </div>
+                </div>
         
-        
+            <!-- Producto 5 -->   
             <div class="ofert-1">
                 <div class="ofert-img">
                     <img src="images/f10.png" alt="" width="500px" height="auto">
@@ -182,6 +195,7 @@
                 </div>
             </div>
 
+            <!-- Modal Producto 5 --> 
             <div id="modal5" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -191,6 +205,7 @@
                 </div>
             </div>
 
+            <!-- Producto 6 -->   
             <div class="ofert-1">  
                 <div class="ofert-img">
                     <img src="images/f11.png" alt="Monitor ASUS" width="500px" height="auto">
@@ -206,6 +221,7 @@
                 </div>
             </div>
 
+            <!-- Modal Producto 6 --> 
             <div id="modal6" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -215,6 +231,7 @@
                 </div>
             </div>
         
+            <!-- Producto 7 -->  
             <div class="ofert-1">
                 <div class="ofert-img">
                     <img src="images/f12.png" alt="" width="500px" height="auto">
@@ -230,6 +247,7 @@
                 </div>
             </div>
 
+            <!-- Modal Producto 7 --> 
             <div id="modal7" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -239,6 +257,7 @@
                 </div>
             </div>
         
+            <!-- Producto 8 -->  
             <div class="ofert-1">
                 <div class="ofert-img">
                     <img src="images/f13.png" alt="" width="500px" height="auto">
@@ -254,6 +273,7 @@
                 </div>
             </div>
 
+            <!-- Modal Producto 8 --> 
             <div id="modal8" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -270,6 +290,7 @@
     
         <section class="ofert container">
 
+            <!-- Producto 9 -->   
             <div class="ofert-1">  
                 <div class="ofert-img">
                     <img src="images/f15.png" alt="Monitor ASUS" width="500px" height="auto">
@@ -285,6 +306,7 @@
                 </div>
             </div>
 
+            <!-- Modal Producto 9 --> 
             <div id="modal9" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -294,6 +316,7 @@
                 </div>
             </div>
         
+            <!-- Producto 10 -->   
             <div class="ofert-1">
                 <div class="ofert-img">
                     <img src="images/f3.png" alt="" width="500px" height="auto">
@@ -309,6 +332,7 @@
                 </div>
             </div>
 
+            <!-- Modal Producto 10 --> 
             <div id="modal10" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -318,6 +342,7 @@
                 </div>
             </div>
 
+            <!-- Producto 11 -->    
             <div class="ofert-1">
                 <div class="ofert-img">
                     <img src="images/f14.png" alt="" width="500px" height="auto">
@@ -333,6 +358,7 @@
                 </div>
             </div>
 
+            <!-- Modal Producto 11 -->
             <div id="modal11" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -342,6 +368,7 @@
                 </div>
             </div>
         
+            <!-- Producto 12 -->  
             <div class="ofert-1">
                 <div class="ofert-img">
                     <img src="images/f4.png" alt="" width="500px" height="auto">
@@ -357,6 +384,7 @@
                 </div>
             </div>
 
+            <!-- Modal Producto 12 -->  
             <div id="modal12" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -373,101 +401,109 @@
         
             <section class="ofert container">
     
+            <!-- Producto 13 -->  
                 <div class="ofert-1">  
-                    <div class="ofert-img">
-                        <img src="images/f16.png" alt="Monitor ASUS" width="500px" height="auto">
-                    </div>
-                    <div class="ofert-txt">
-                        <h3>Samsung Galaxy Tab S10+ (Silver)</h3>
-                        <p class="regular-price">Precio Regular: <span>Q9,000.00</span></p>
-                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q8,500.00</span></p>
-                        <div class="button-container">
-                            <button class="info-btn" data-modal="modal13">Información</button>
-                            <button class="cart-btn">Agregar al carrito</button>
-                        </div>
+                <div class="ofert-img">
+                    <img src="images/f16.png" alt="Monitor ASUS" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Samsung Galaxy Tab S10+ (Silver)</h3>
+                    <p class="regular-price">Precio Regular: <span>Q9,000.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q8,500.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal13">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
                     </div>
                 </div>
+            </div>
 
-                <div id="modal13" class="modal">
-                    <div class="modal-contenido">
-                        <span class="cerrar">&times;</span>
-                        <h3>Samsung Galaxy Tab S10+ (Silver)</h3>
-                        <p>La Samsung Galaxy Tab S10+ es una tableta de alta gama que combina diseño elegante con rendimiento potente. Equipada con una pantalla Super AMOLED de 12.4 pulgadas y resolución de 2800 x 1752 píxeles, ofrece imágenes nítidas y colores vibrantes. Su procesador Exynos 2200, junto con 8 GB de RAM y opciones de almacenamiento de 128 GB o 256 GB, garantiza un rendimiento fluido para multitarea y aplicaciones exigentes. </p>
-                        <p>Además, cuenta con una batería de 10,090 mAh que proporciona una autonomía prolongada, y es compatible con el S Pen para una experiencia de escritura y dibujo natural.</p>
-                    </div>
+            <!-- Modal Producto 13 -->  
+            <div id="modal13" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar">&times;</span>
+                    <h3>Samsung Galaxy Tab S10+ (Silver)</h3>
+                    <p>La Samsung Galaxy Tab S10+ es una tableta de alta gama que combina diseño elegante con rendimiento potente. Equipada con una pantalla Super AMOLED de 12.4 pulgadas y resolución de 2800 x 1752 píxeles, ofrece imágenes nítidas y colores vibrantes. Su procesador Exynos 2200, junto con 8 GB de RAM y opciones de almacenamiento de 128 GB o 256 GB, garantiza un rendimiento fluido para multitarea y aplicaciones exigentes. </p>
+                    <p>Además, cuenta con una batería de 10,090 mAh que proporciona una autonomía prolongada, y es compatible con el S Pen para una experiencia de escritura y dibujo natural.</p>
                 </div>
+            </div>
             
-                <div class="ofert-1">
-                    <div class="ofert-img">
-                        <img src="images/f17.png" alt="" width="500px" height="auto">
-                    </div>
-                    <div class="ofert-txt">
-                        <h3>Apple, iPad Pro M4 (Negro)</h3>
-                        <p class="regular-price">Precio Regular: <span>Q9,995.00</span></p>
-                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q9,350.00</span></p>
-                        <div class="button-container">
-                            <button class="info-btn" data-modal="modal14">Información</button>
-                            <button class="cart-btn">Agregar al carrito</button>
-                        </div>
+            <!-- Producto 14 -->  
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f17.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Apple, iPad Pro M4 (Negro)</h3>
+                    <p class="regular-price">Precio Regular: <span>Q9,995.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q9,350.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal14">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
                     </div>
                 </div>
+            </div>
 
-                <div id="modal14" class="modal">
-                    <div class="modal-contenido">
-                        <span class="cerrar">&times;</span>
-                        <h3>Apple iPad Pro M4 (Negro)</h3>
-                        <p>El iPad Pro M4 de Apple incorpora el potente chip M4, ofreciendo un rendimiento superior para tareas profesionales y creativas. Disponible en tamaños de 11 y 13 pulgadas, su pantalla Liquid Retina XDR proporciona una calidad de imagen excepcional con alto rango dinámico. </p>
-                        <p>Además, es compatible con el Apple Pencil y el Magic Keyboard, convirtiéndolo en una herramienta versátil para trabajo y entretenimiento.</p>
-                    </div>
+            <!-- Modal Producto 14 -->  
+            <div id="modal14" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar">&times;</span>
+                    <h3>Apple iPad Pro M4 (Negro)</h3>
+                    <p>El iPad Pro M4 de Apple incorpora el potente chip M4, ofreciendo un rendimiento superior para tareas profesionales y creativas. Disponible en tamaños de 11 y 13 pulgadas, su pantalla Liquid Retina XDR proporciona una calidad de imagen excepcional con alto rango dinámico. </p>
+                    <p>Además, es compatible con el Apple Pencil y el Magic Keyboard, convirtiéndolo en una herramienta versátil para trabajo y entretenimiento.</p>
                 </div>
+            </div>
             
-                <div class="ofert-1">
-                    <div class="ofert-img">
-                        <img src="images/f18.png" alt="" width="500px" height="auto">
-                    </div>
-                    <div class="ofert-txt">
-                        <h3>Google Pixel 9 Pro XL (Hazel)</h3>
-                        <p class="regular-price">Precio Regular: <span>Q11,720.00</span></p>
-                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q11,100.00</span></p>
-                        <div class="button-container">
-                            <button class="info-btn" data-modal="modal15">Información</button>
-                            <button class="cart-btn">Agregar al carrito</button>
-                        </div>
+            <!-- Producto 15 -->  
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f18.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Google Pixel 9 Pro XL (Hazel)</h3>
+                    <p class="regular-price">Precio Regular: <span>Q11,720.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q11,100.00</span></p>
+                    <div class="button-container">
+                        <button class="info-btn" data-modal="modal15">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>                        
                     </div>
                 </div>
+            </div>
 
-                <div id="modal15" class="modal">
-                    <div class="modal-contenido">
-                        <span class="cerrar">&times;</span>
-                        <h3>Google Pixel 9 Pro XL (Hazel)</h3>
-                        <p>El Google Pixel 9 Pro XL es el smartphone insignia de Google, conocido por su cámara de alta calidad y experiencia de usuario pura con Android. Cuenta con una pantalla OLED de 6.7 pulgadas con tasa de refresco de 120 Hz, procesador Tensor G3 desarrollado por Google, 12 GB de RAM y opciones de almacenamiento de 128 GB o 256 GB.</p>
-                        <p>Su sistema de cámaras avanzado incluye un sensor principal de 50 MP, un ultra gran angular de 12 MP y un teleobjetivo de 48 MP, ofreciendo fotografías impresionantes en diversas condiciones de iluminación.</p>
-                    </div>
+            <!-- Modal Producto 15 -->  
+            <div id="modal15" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar">&times;</span>
+                    <h3>Google Pixel 9 Pro XL (Hazel)</h3>
+                    <p>El Google Pixel 9 Pro XL es el smartphone insignia de Google, conocido por su cámara de alta calidad y experiencia de usuario pura con Android. Cuenta con una pantalla OLED de 6.7 pulgadas con tasa de refresco de 120 Hz, procesador Tensor G3 desarrollado por Google, 12 GB de RAM y opciones de almacenamiento de 128 GB o 256 GB.</p>
+                    <p>Su sistema de cámaras avanzado incluye un sensor principal de 50 MP, un ultra gran angular de 12 MP y un teleobjetivo de 48 MP, ofreciendo fotografías impresionantes en diversas condiciones de iluminación.</p>
                 </div>
+            </div>
             
-                <div class="ofert-1">
-                    <div class="ofert-img">
-                        <img src="images/f20.png" alt="" width="500px" height="auto">
-                    </div>
-                    <div class="ofert-txt">
-                        <h3>Samsung Galaxy S24 Ultra (Negro)</h3>
-                        <p class="regular-price">Precio Regular: <span>Q13,995.00</span></p>
-                        <p class="discount-price">Beneficio en efectivo o depósito: <span>Q13,250.00</span></p>
-                        <div class="button-container">
-                            <button class="info-btn" data-modal="modal16">Información</button>
-                            <button class="cart-btn">Agregar al carrito</button>
-                        </div>
+            <!-- Producto 16 -->  
+            <div class="ofert-1">
+                <div class="ofert-img">
+                    <img src="images/f20.png" alt="" width="500px" height="auto">
+                </div>
+                <div class="ofert-txt">
+                    <h3>Samsung Galaxy S24 Ultra (Negro)</h3>
+                    <p class="regular-price">Precio Regular: <span>Q13,995.00</span></p>
+                    <p class="discount-price">Beneficio en efectivo o depósito: <span>Q13,250.00</span></p>
+                    <div class="button-container">                            
+                        <button class="info-btn" data-modal="modal16">Información</button>
+                        <button class="cart-btn">Agregar al carrito</button>
                     </div>
                 </div>
+            </div>
 
-                <div id="modal16" class="modal">
-                    <div class="modal-contenido">
-                        <span class="cerrar">&times;</span>
-                        <h3>Samsung Galaxy S24 Ultra (Negro)</h3>
-                        <p>El Samsung Galaxy S24 Ultra es el buque insignia de Samsung, destacando por su diseño premium y especificaciones de vanguardia. Incorpora una pantalla Dynamic AMOLED de 6.8 pulgadas con resolución QHD+ y tasa de refresco de 120 Hz. Equipado con el procesador Exynos 2300 o Snapdragon 8 Gen 3 (dependiendo de la región), 12 GB de RAM y opciones de almacenamiento de hasta 1 TB.</p>
-                        <p>Su sistema de cámaras cuádruple incluye un sensor principal de 108 MP, ofreciendo capacidades fotográficas excepcionales. Además, cuenta con una batería de 5,000 mAh con carga rápida e inalámbrica, y soporte para el S Pen.</p>
-                    </div>
+            <!-- Modal Producto 16 -->  
+            <div id="modal16" class="modal">
+                <div class="modal-contenido">
+                    <span class="cerrar">&times;</span>
+                    <h3>Samsung Galaxy S24 Ultra (Negro)</h3>                        
+                    <p>El Samsung Galaxy S24 Ultra es el buque insignia de Samsung, destacando por su diseño premium y especificaciones de vanguardia. Incorpora una pantalla Dynamic AMOLED de 6.8 pulgadas con resolución QHD+ y tasa de refresco de 120 Hz. Equipado con el procesador Exynos 2300 o Snapdragon 8 Gen 3 (dependiendo de la región), 12 GB de RAM y opciones de almacenamiento de hasta 1 TB.</p>
+                    <p>Su sistema de cámaras cuádruple incluye un sensor principal de 108 MP, ofreciendo capacidades fotográficas excepcionales. Además, cuenta con una batería de 5,000 mAh con carga rápida e inalámbrica, y soporte para el S Pen.</p>
                 </div>
+            </div>
 
             </section>
         
@@ -477,6 +513,7 @@
     
         <section class="ofert container">
 
+            <!-- Producto 17 -->  
             <div class="ofert-1">  
                 <div class="ofert-img">
                     <img src="images/f21.png" alt="Monitor ASUS" width="500px" height="auto">
@@ -492,6 +529,7 @@
                 </div>
             </div>
 
+            <!-- Modal Producto 17 -->
             <div id="modal17" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -501,6 +539,7 @@
                 </div>
             </div>
         
+            <!-- Producto 18 -->  
             <div class="ofert-1">
                 <div class="ofert-img">
                     <img src="images/f22.png" alt="" width="500px" height="auto">
@@ -516,6 +555,7 @@
                 </div>
             </div>
 
+            <!-- Modal Producto 18 -->  
             <div id="modal18" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -525,6 +565,7 @@
                 </div>
             </div>
         
+            <!-- Producto 19 -->   
             <div class="ofert-1">
                 <div class="ofert-img">
                     <img src="images/f23.png" alt="" width="500px" height="auto">
@@ -540,6 +581,7 @@
                 </div>
             </div>
 
+            <!-- Modal Producto 19 --> 
             <div id="modal19" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -549,6 +591,7 @@
                 </div>
             </div>
         
+            <!-- Producto 20 -->  
             <div class="ofert-1">
                 <div class="ofert-img">
                     <img src="images/f24.png" alt="" width="500px" height="auto">
@@ -564,6 +607,7 @@
                 </div>
             </div>
 
+            <!-- Modal Producto 20 --> 
             <div id="modal20" class="modal">
                 <div class="modal-contenido">
                     <span class="cerrar">&times;</span>
@@ -572,18 +616,19 @@
                     <p>Para aplicarla, agite el envase, aplique directamente sobre la superficie o un paño, y luego limpie y frote según sea necesario.</p>
                 </div>
             </div>
-
         </section>
+    </section>    
     </main>
 
-
-    <footer class="footer">
+      <!-- Pie de página -->
+      <footer class="footer">
         <div class="footer-content container">
+            <!-- Información de la empresa -->
             <div class="footer-logo">
                 <h2>TechZone S.A.</h2>
                 <p>Ofrecemos los mejores productos electrónicos con una calidad excepcional.</p>
             </div>
-    
+            <!-- Enlaces rápidos -->
             <div class="footer-links">
                 <div class="link">
                     <h3>Productos</h3>
@@ -591,7 +636,6 @@
                         <li><a href="productos.html">Productos</a></li>
                     </ul>
                 </div>
-                
                 <div class="link">
                     <h3>Empresa</h3>
                     <ul>
@@ -599,7 +643,7 @@
                     </ul>
                 </div>
             </div>
-    
+            <!-- Redes sociales -->
             <div class="footer-social">
                 <h3>Síguenos</h3>
                 <div class="social-icons">
@@ -613,7 +657,8 @@
             <p>&copy; 2025 TechZone S.A. - Todos los derechos reservados.</p>
         </div>
     </footer>
-    
+
+    <!-- Enlace al archivo JavaScript -->
     <script src="script.js"></script>
     
 </body>
